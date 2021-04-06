@@ -152,7 +152,7 @@
             <h2>Kontaktiraj nas ali nas obišči</h2>
             <form class="contact__form" id="form">
                 <div class="form-control">
-                    <label>Ime</label>
+                    <label for="name">Ime</label>
                     <input type="text" class="name" id="name">
                     <i class="fas fa-check-circle" ></i>
                     <i class="fas fa-exclamation-circle"></i>
@@ -166,13 +166,13 @@
                     <small>Error message</small>
                 </div>
                 <div class="form-control">
-                    <label for="">Komentar</label><br>
+                    <label for="comment">Komentar</label><br>
                     <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
                     <i class="fas fa-check-circle" ></i>
                     <i class="fas fa-exclamation-circle"></i>
                     <br><small>Error message</small>
                 </div>
-                <button class="cta">Pošlji</button>
+                <button class="cta" role="button" aria-label="send">Pošlji</button>
             </form>
             <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1953.9589276554777!2d15.049207387452517!3d46.16438061606257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47656b646730cbef%3A0xf3e2212fd134d35!2zQ2VzdGEgVG9uxI1rZSDEjGXEjSAyYSwgMTQyMCBUcmJvdmxqZQ!5e0!3m2!1ssl!2ssi!4v1617617604974!5m2!1ssl!2ssi"  allowfullscreen="" loading="lazy"></iframe>
         </section>
@@ -192,9 +192,9 @@
             </ul>
         </div>
         <div class="footer__social">
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-instagram-square"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="link to Facebook"><i class="fab fa-facebook-square" aria-labelledby="svg-title"></i></a>
+            <a href="#" aria-label="link to Instagram"><i class="fab fa-instagram-square" aria-labelledby="svg-title"></i></a>
+            <a href="#" aria-label="link to linkedin"><i class="fab fa-linkedin"></i></a>
         </div>
     </div>
 </footer>

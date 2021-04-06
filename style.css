@@ -114,6 +114,7 @@ p {
     width: 450px;
     align-self: flex-end;
     margin: 3rem 2rem 0 0;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 1550px) {
@@ -465,7 +466,7 @@ footer {
 }
 
 .footer a {
-    color: var(--sec2);
+    color: var(--cta);
 }
 
 .footer__social i {
