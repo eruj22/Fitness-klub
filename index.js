@@ -62,11 +62,11 @@ const email = document.getElementById('email');
 const comment = document.getElementById('comment');
 
 form.addEventListener('submit', (e) => {
-    //e.preventDefault();
+    e.preventDefault();
     checkInputs();
-    //if (i === 3) {
-    //    refreshPage();
-    //}
+    if (i === 3) {
+        form.submit();
+    }
 });
 
 let i = 0;
@@ -104,9 +104,9 @@ function checkInputs() {
 };
 
 // document.ontouchmove = function(e){ return true; }
-function refreshPage() {
-    location.reload();
-}
+// function refreshPage() {
+//     form
+// }
 
 function setErrorFor(input, message) {
     const formControl = input.parentElement;
