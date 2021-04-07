@@ -64,6 +64,9 @@ const comment = document.getElementById('comment');
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     checkInputs();
+    if (i === 3) {
+        refreshPage();
+    }
 });
 
 function checkInputs() {
@@ -78,6 +81,7 @@ function checkInputs() {
         setErrorFor(username, 'Okence za ime ne sme biti prazno');
     } else {
         setSuccessFor(username);
+        i++;
     }
 
     //check email
@@ -87,12 +91,14 @@ function checkInputs() {
         setErrorFor(email, 'Napačno napisan email');
     } else {
         setSuccessFor(email);
+        i++;
     }
 
     if(commentValue === '') {
         setErrorFor(comment, 'Okence s komentarjem ne sme biti prazno')
     } else {
         setSuccessFor(comment);
+        i++;
     }
 };
 
