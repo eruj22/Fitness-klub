@@ -102,11 +102,8 @@ p {
 .logo {
     max-width: 170px;
     padding-top: .4rem;
-}
-
-.nav {
     background-color: var(--light-text);
-    height: 85px;
+    border-radius: 50%;
 }
 
 .hero__title {
