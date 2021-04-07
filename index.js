@@ -103,11 +103,6 @@ function checkInputs() {
     }
 };
 
-// document.ontouchmove = function(e){ return true; }
-// function refreshPage() {
-//     form
-// }
-
 function setErrorFor(input, message) {
     const formControl = input.parentElement;
     const small = formControl.querySelector('small');
