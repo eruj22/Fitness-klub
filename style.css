@@ -89,7 +89,7 @@ p {
     border: 2px solid var(--sec);
 }
 
-::marker {
+::marker {  /* styling unordered list */
     color: var(--dark-text);
     font-size: 1rem;
     font-weight: 700;
