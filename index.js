@@ -38,7 +38,7 @@ function display(index) {
 
 function nextSlide() {
     index++;
-    if (index > slides.length-1) {
+    if (index > slides.length - 1) {
         index = 0
     }
     display(index);
@@ -69,6 +69,7 @@ form.addEventListener('submit', (e) => {
     }
 });
 
+let i = 0;
 function checkInputs() {
     //get values from inputs
     const usernameValue = username.value.trim();
@@ -101,6 +102,11 @@ function checkInputs() {
         i++;
     }
 };
+
+// document.ontouchmove = function(e){ return true; }
+function refreshPage() {
+    location.reload();
+}
 
 function setErrorFor(input, message) {
     const formControl = input.parentElement;
