@@ -425,6 +425,10 @@ small {
     color: #e74c3c;
 }
 
+.hidden {
+    display: none;
+}
+
 button {
     cursor: pointer;
 }

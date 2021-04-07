@@ -150,7 +150,8 @@
         </section>
         <section class="contact">
             <h2>Kontaktiraj nas ali nas obišči</h2>
-            <form class="contact__form" id="form" method="post" name="Contact Form" netlify>
+            <form class="contact__form" id="form" method="post" name="Contact Form" netlify-honeypot="hpfield" netlify>
+                <input class="hidden" name="hpfield">    
                 <div class="form-control">
                     <label for="name">Ime</label>
                     <input type="text" name="name" class="name" id="name">
