@@ -89,6 +89,18 @@ p {
     border: 2px solid var(--sec);
 }
 
+::marker {
+    color: var(--dark-text);
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Font Awesome 5 free';
+    content: '\f44b';
+}
+
+ul > li {
+    padding-left: .5rem;
+}
+
 /* Hero section */
 .hero {
     background: url(slike/hero.jpg);
