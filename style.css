@@ -176,6 +176,8 @@ ul > li {
 .pricing__img {
     padding: 1rem;
     margin-bottom: 2rem;
+    width: 350px;
+    height: 250px;
 }
 
 .pricing span {
