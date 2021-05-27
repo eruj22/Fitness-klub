@@ -7,3 +7,4 @@ After that I started coding. I have used some tutorials in YouTube to implement 
 When I had finished coding I minified pictures and website was sent to a friend for a review.
 Website was done after some final iterations for mobile devices.
 In the end, I have learned a lot and it was fun doing this project.
+You can see site live on <a href="https://cranky-kowalevski-1ffd0a.netlify.app/">This link</a>.
